@@ -74,6 +74,7 @@ li {
 
 .nav__link--primary:hover {
   text-decoration: none;
+  background-color: #7342d6;
 }
 
 #landing {
@@ -90,7 +91,7 @@ li {
 .headings {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -102,33 +103,40 @@ li {
   flex-direction: row;
 }
 
+.header__description {
+  margin-top: 80px;
+  width: 40%;
+}
+
 .h1 {
-  font-size: 56px;
+  font-size: 18px;
   margin-bottom: 24px;
   text-align: center;
 }
 
-.h2 {
-  font-size: 15px;
+.para {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 13px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .form {
-  display: flex;
-  gap: 12px;
-  align-items: center;
+  position: relative;
 }
 
 .form__input {
-  padding: 12px;
   border-radius: 80px;
-  border: 1px solid #ccc;
-  width: 20%;
+  width: 100%;
+  padding: 16px 8px;
 }
 
 .button {
-  padding: 12px 24px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  padding: 14px 18px;
   border-radius: 80px;
   border: none;
   background-color: #5a0fee;
@@ -141,31 +149,213 @@ li {
   background-color: #7342d6;
 }
 
-.img {
+.logo_text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 50px;
+  color: rgb(97, 96, 96);
+}
+
+.four-logo {
+  margin-top: 10px;
   width: 100%;
   height: auto;
 }
 
+.img {
+  width: 50%;
+  height: auto;
+}
+
 .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .flex-container image {
-    max-width: 100px;
-    height: auto;
-    margin-left: 20px;
+  max-width: 100px;
+  height: auto;
+  margin-left: 20px;
 }
 
 .text-container {
-  flex: 0 0 40%;
+  width: 100%;
+  max-width: 1150px;
 }
 
 .responsive-image {
   flex: 0 0 60%;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  padding: 80px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Highlights */
+
+.container {
+  padding: 80px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.highlight__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #5a0fee;
+}
+
+.subheader {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 36px;
+}
+
+.highlight__description {
+  font-size: 20px;
+  max-width: 600px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+  color: rgb(97, 96, 96);
+}
+
+.highlight__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  width: calc(100% / 3);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon__container {
+  border: 2px solid #e5e2e8;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  width: 80%;
+  height: auto;
+}
+
+.highlight__subtitle {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.highlight__para {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* QUALITY WORK */
+
+.new-row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.new-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.new-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.new-text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work__title {
+  font-size: 18px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.new-subheader {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.new-para {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.hero-image {
+  flex: 50%;
+  max-width: 100%;
+  height: auto;
+  margin-left: 78px;
+}
+
+.new-button {
+  top: 2px;
+  right: 3px;
+  padding: 10px 12px;
+  border-radius: 80px;
+  border: none;
+  background-color: #5a0fee;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.new-button:hover {
+  background-color: #7342d6;
 }
