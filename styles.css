@@ -413,33 +413,37 @@ li {
 .numbers {
   display: flex;
   flex-direction: column;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.step__number {
   color: rgb(185, 184, 184);
-  font-size: 40px;
-  padding: 0;
-  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-.one {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.two {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
-.three {
-  margin-top: 12px;
-}
-
-.header__discription {
+.step__content {
   display: flex;
   flex-direction: column;
-  color: black;
-  align-items: center;
+  gap: 8px;
 }
 
-.para {
+.header__description {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.step__para {
   color: rgb(113, 113, 113);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 8px 0 0 0;
 }
