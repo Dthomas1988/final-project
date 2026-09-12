@@ -172,18 +172,12 @@ li {
   height: auto;
 }
 
-.flex-container {
+.flex-container image {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin: 0 auto;
-}
-
-.flex-container image {
-  max-width: 100px;
-  height: auto;
-  margin-left: 20px;
 }
 
 .text-container {
@@ -369,13 +363,13 @@ li {
 #STEPS {
 }
 
-.row {
+.step__row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.container {
+.step__container {
   width: 100%;
   max-width: 1200px;
   padding: 0 auto;
@@ -384,12 +378,18 @@ li {
   margin-left: 120px;
 }
 
+.step__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .hero__2-image {
   width: 50%;
   margin-top: 24px;
 }
 
-.text-container {
+.step__text-container {
   margin: auto;
   width: 50%;
   display: flex;
@@ -405,10 +405,12 @@ li {
   position: relative;
 }
 
-.header {
+
+.steps__header {
   font-size: 40px;
   font-weight: bold;
 }
+
 
 .numbers {
   display: flex;
