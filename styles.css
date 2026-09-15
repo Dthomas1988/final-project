@@ -113,6 +113,7 @@ li {
 }
 
 .h1 {
+  margin-left: 120px;
   font-size: 18px;
   margin-bottom: 24px;
   text-align: center;
@@ -297,6 +298,7 @@ li {
   display: flex;
   flex-direction: row;
   margin-left: 120px;
+  margin-bottom: 50px;
 }
 
 .new-flex-container {
@@ -376,6 +378,8 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 120px;
+  margin-bottom: 50px;
 }
 
 .step__flex-container {
@@ -395,7 +399,8 @@ li {
 }
 
 .hero__2-image {
-  width: 50%;
+  width: 100%;
+  height: auto;
   margin-top: 24px;
 }
 
@@ -447,7 +452,7 @@ li {
   gap: 8px;
 }
 
-.header__description {
+.step__description {
   color: black;
   font-size: 20px;
   font-weight: bold;
@@ -458,4 +463,138 @@ li {
   font-size: 14px;
   line-height: 1.5;
   margin: 8px 0 0 0;
+}
+
+/* PRICING */
+
+.pricing__container {
+  align-items: center;
+}
+
+.pricing__row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing__title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pricing__subheader {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 36px;
+}
+
+.pricing__subheader-discription {
+  font-size: 18px;
+  max-width: 500px;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.plans {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.plan__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.li__title {
+  font-size: 18px;
+  color: rgb(185, 184, 184);
+  margin-bottom: 42px;
+}
+
+.li__subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+.li__discription {
+  font-size: 18px;
+  color: rgb(185, 184, 184);
+  margin-bottom: 18px;
+}
+
+.p__plan {
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 56px;
+  border: 1px solid rgb(207, 205, 205);
+}
+
+.b__plan {
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7342d6;
+  padding: 20px 56px;
+  border: 1px solid rgb(207, 205, 205);  
+}
+
+.e__plan {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 56px;
+  border: 1px solid rgb(207, 205, 205);
+  
+}
+
+.p__button {
+  background-color: rgb(100, 214, 176);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 50px;
+  border: 2px solid;
+  padding: 8px 36px;
+  margin-top: 42px;
+}
+
+.b__button {
+  background-color: white;
+  color: #7342d6;
+  font-weight: bold;
+  font-size: 12px;  
+  border-radius: 50px;
+  border: 2px solid;
+  padding: 5px 36px;
+  margin-top: 42px;
+}
+
+.e__button {
+  background-color: salmon;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;  
+  border-radius: 50px;
+  border: 2px solid;
+  padding: 5px 36px;
+  margin-top: 42px; 
 }
