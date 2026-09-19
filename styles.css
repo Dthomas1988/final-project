@@ -581,6 +581,7 @@ li {
   border: 2px solid;
   padding: 8px 36px;
   margin-top: 42px;
+  cursor: pointer;
 }
 
 .b__button {
@@ -592,6 +593,7 @@ li {
   border: 2px solid;
   padding: 5px 36px;
   margin-top: 42px;
+  cursor: pointer;
 }
 
 .e__button {
@@ -603,6 +605,7 @@ li {
   border: 2px solid;
   padding: 5px 36px;
   margin-top: 42px;
+  cursor: pointer;
 }
 
 /* Footer */
