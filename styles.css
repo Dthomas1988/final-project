@@ -348,6 +348,7 @@ li {
 /* QUALITY WORK */
 
 #QUALITY-WORKS .row {
+  margin: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -360,6 +361,7 @@ li {
 }
 
 .new-container {
+  margin: auto;
   width: 100%;
   max-width: 1200px;
   padding: 0 auto;
@@ -433,6 +435,8 @@ li {
 /* STEPS*/
 
 #STEPS {
+  margin-top: 3rem;
+  margin-bottom: 3rem ;
 }
 
 .step__row {
@@ -442,6 +446,7 @@ li {
 }
 
 .step__container {
+  margin:auto;
   width: 100%;
   max-width: 1200px;
   padding: 0;
@@ -536,6 +541,10 @@ li {
 }
 
 /* PRICING */
+
+#pricing {
+  margin-top: 3rem;
+}
 
 .pricing__container {
   align-items: center;
@@ -904,7 +913,7 @@ footer {
 
 .footer__row {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -916,24 +925,35 @@ footer {
 }
 
 .footer__links {
+  margin-top: 48px;
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 90px;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
 }
 
 .li__footer-title {
-  margin-top: 12px;
+  font-weight: 700;
   color: #fff;
-  margin-left: 110px;
+  line-height: 1.5;
 }
 
 .footer__link {
   color: rgb(207, 205, 205);
-  margin-left: 110px;
-  margin-top: 5px;
+  font-size: 14px;
+  margin-top: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+  position: relative;
+  cursor: pointer;
+}
+
+.footer__link--link:nth-child(2) {
+  margin-top: 24px;
 }
 
 a {
+  display: inline;
   text-decoration: none;
 }
 
