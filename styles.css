@@ -591,10 +591,19 @@ button {
 }
 
 .plans {
-  justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.plan {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .plan__title {
@@ -1343,7 +1352,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .new-flex-container,
-  .steps__description,
+  .step__text-container,
   .testimonials__description {
     padding: 0;
     margin-top: 64px;
@@ -1354,7 +1363,7 @@ a:hover {
 @media (max-width: 768px) {
   .new-flex-container,
   .quality__img--wrapper,
-  .steps__description,
+  .step__text-container,
   .steps__img--wrapper,
   .hero-image,
   .testimonials__description,
