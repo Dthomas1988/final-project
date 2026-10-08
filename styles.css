@@ -192,7 +192,6 @@ button {
   margin-left: 120px;
   font-size: 18px;
   margin-bottom: 24px;
-  text-align: center;
 }
 
 .para {
@@ -363,7 +362,7 @@ button {
 /* QUALITY WORK */
 
 #QUALITY-WORKS .row {
-  margin: 3rem;
+  margin: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -382,7 +381,6 @@ button {
   padding: 0 80px;
   display: flex;
   flex-direction: row;
-  margin-left: 120px;
   margin-bottom: 50px;
 }
 
@@ -450,8 +448,8 @@ button {
 /* STEPS*/
 
 #steps {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .step__row {
@@ -468,7 +466,6 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 120px;
   margin-bottom: 50px;
 }
 
